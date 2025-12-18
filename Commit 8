@@ -1,0 +1,9 @@
+# Find maximum value in a list
+numbers = [3, 7, 2, 9, 1]
+
+max_value = numbers[0]
+for n in numbers:
+    if n > max_value:
+        max_value = n
+
+print(max_value)
