@@ -1,0 +1,3 @@
+# User input example
+name = input("Enter your name: ")
+print("Hello,", name)
